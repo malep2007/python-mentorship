@@ -26,7 +26,7 @@ with open(corpusFile, 'rt') as csvfile:
                 "topic": row[0]
             }
         )
-        trainingDataSet = []
+trainingDataSet = []
 for tweet in corpus:
     try:
         status = twitter_api.GetStatus(tweet["tweet_id"])
