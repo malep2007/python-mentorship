@@ -8,7 +8,3 @@ def sumn(n):
         return 0
     else:
        return n + sumn(n-1)
-
-
-for i in range(1,5):
-    print(sumn(i))
